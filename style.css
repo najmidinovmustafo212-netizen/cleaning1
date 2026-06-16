@@ -1,0 +1,586 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(75deg, whitesmoke, rgb(143, 187, 249));
+    height: 100vh;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px solid rgb(12, 79, 105);
+    padding: 20px 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    backdrop-filter: blur(30px);
+
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+.b1 button {
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(75deg, skyblue, blue);
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(8, 68, 90);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+header img {
+    margin-left: 50px;
+}
+
+.cart1 article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-top: -40px;
+}
+
+.cart1 article .a {
+    width: 600px;
+}
+
+.cart1 article .a1 {
+    width: 40px;
+}
+
+.cart1 article b {
+    font-size: 60px;
+    font-family: sans-serif;
+    letter-spacing: -3%;
+    line-height: 50px;
+    color: rgb(27, 103, 201);
+}
+
+.cart1 div {
+    display: flex;
+    gap: 30px;
+}
+
+.cart1 .mmmmm {
+
+    font-weight: 800;
+    color: #6ab7ff;
+    margin-bottom: 15px;
+}
+
+.cart1 .b {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: none;
+    mix-blend-mode: multiply;
+    background: linear-gradient(75deg, whitesmoke, rgb(143, 187, 249));
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.cart1 aside {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+}
+
+.b {
+    padding: 15px 35px;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    border: none;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.b img {
+    width: 40px;
+}
+
+main .m {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.cart1 .bb {
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: none;
+    mix-blend-mode: multiply;
+    background: linear-gradient(75deg, skyblue, blue);
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+h1,
+p {
+    text-align: center;
+    color: dodgerblue;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.cart2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+}
+
+.cart2 .mm {
+    text-align: center;
+    font-weight: 900;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.buttons .bbb {
+    padding: 25px 30px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(75deg, skyblue, blue);
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+.buttons .bbbb {
+    border: 3px solid white;
+    padding: 25px 30px;
+    border-radius: 20px;
+    background: linear-gradient(75deg, whitesmoke, rgb(143, 187, 249));
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: skyblue
+}
+
+.ss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    padding: 100px;
+}
+
+.ss button {
+    border: 3px solid white;
+    padding: 25px 30px;
+    border-radius: 20px;
+    background: linear-gradient(75deg, whitesmoke, rgb(143, 187, 249));
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: skyblue
+}
+
+.ss b {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 50px;
+    margin-left: 30px;
+    color: rgb(15, 179, 244);
+}
+
+.cart3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.cart3 article {
+    width: 350px;
+    background: linear-gradient(75deg, whitesmoke, rgb(145, 184, 237));
+    padding: 40px 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.cart3 .mmm {
+    font-weight: 800;
+    padding-top: -10px;
+}
+
+.cart3 .i {
+    height: 200px;
+}
+
+.cartt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 700px;
+    border: 1px solid darkblue;
+    padding: 20px;
+    margin-left: 30px;
+    background-color: rgb(20, 20, 69);
+}
+
+.cartt .mmmm {
+    font-weight: 800;
+    padding: 10px;
+    background: linear-gradient(75deg #6ab7ff, blue);
+}
+
+.cartt aside div .bb {
+    color: white;
+    padding: 25px 30px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(75deg, skyblue, blue);
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+
+}
+
+.cartt aside {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    width: 100;
+}
+
+.cartt img {
+    width: 500px;
+}
+
+.b1 img {
+    width: 40px;
+    padding-left: -20px;
+}
+
+.cartt .b1 {
+    border-radius: 20px;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(75deg, whitesmoke, rgb(104, 165, 249));
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    border font-weight: bolder;
+}
+
+.cartt div {
+    display: flex;
+    gap: 30px;
+}
+
+.cart4 article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+.cart4 aside button {
+    color: white;
+    padding: 25px 30px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(75deg, skyblue, blue);
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.cart4 .mmmmmm {
+    font-weight: 800;
+}
+
+.cart4 .mmmmmmm {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.cart4 aside .child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.cart4 aside .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cart4 aside .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cart4 aside {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart4 a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.cart4 article .surat {
+    width: 550px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.footer {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer1 {
+    display: flex;
+    gap: 37px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.footer1 b {
+    font-size: 30px;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 38px;
+    font-weight: bolder;
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    font-weight: bolder;
+}
+
+.footer4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    font-weight: bolder;
+}
+
+.footer4 button {
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(75deg, skyblue, blue);
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.footer a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+:hover .cartt .bb {
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+:hover .ss button {
+    padding: 25px 160px;
+    cursor: pointer;
+}
+
+@media(max-width:768px) {
+    header a {
+        display: none;
+    }
+    header img{
+        margin-left: 30px;
+    }
+
+    .cart1 article {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-top: 50px;
+    }
+
+    .cart1 article .a {
+        width: 100%;
+        padding: 0px;
+        padding-top: 30px;
+    }
+
+    .cart2 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 0px;
+        gap: 20px;
+        margin-top: 50px;
+    }
+
+    .cart2 article {
+        margin-right: -120px;
+    }
+
+    .ss {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 0px;
+        gap: 20px;
+        padding-top: 50px;
+    }
+
+    .cart3 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 0px;
+        margin: 0px;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .cart3 .a1 {
+        margin-left: 50px;
+    }
+     .cart3 .a2{
+        margin-left: 50px;
+     }
+    .cart4 article {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .cart4 aside .child {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 40px;
+        text-align: center;
+        padding-top: 20px;
+        margin: 0px;
+
+    }
+
+    .cart4 article .surat {
+        width: 100%;
+    }
+
+    .cart4 b {
+        display: none;
+    }
+
+    .cartt article .l {
+        width: 300px;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .cartt {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-left: -25px;
+        width: 110%;
+        height: 100%;
+    }
+    .cartt aside div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 120px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 0px;
+    }
+
+    .footer1 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-left: -50px;
+    }
+
+    .footer2 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer3 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer4 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer a {
+        display: none;
+    }
+}
